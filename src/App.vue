@@ -4,7 +4,9 @@
       <router-link class="btn" exact to='/'>home</router-link>
       <router-link class="btn" to='/about'>about</router-link>
       <router-link class="btn" :to='{path:"/document"}'>document</router-link>
+      <router-link class="btn" to='/user'>user</router-link>
     </div>
+    <router-view name="slide"/>
     <router-view/>
   </div>
 </template>
